@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 80px;
+  background: #fff;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-items {
+  padding: 0px 20px;
+}
+
+.nav-items>ul {
+  display: flex;
+  font-size: 17px;
+  list-style-type: none;
+  min-width: 400px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-items>ul>li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.restaurant-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-start;
+}
+
+.res-card {
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card-tags {
+  color: #686b78;
+  font-size: 19px;
+  margin-top: 4px;
+}
+
+.card-rating {
+  background-color: #db7c38;
+  color: #fff;
+}
+
+.search {
+  padding: 10px;
+}
+
+.res-logo {
+  width: 100%;
+}
+
+/* footer CSS */
+.footer {
+  width: auto;
+  text-align: center;
+  background-color: rgb(0, 179, 24);
+  padding: 20px 10px 20px;
+  border-radius: 5px;
+  box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer>i {
+  padding: 0 5px 0;
+  font-size: smaller;
+}
+
+.footer>strong {
+  padding-left: 5px;
+}
+
+.footer>strong>span {
+  color: rgb(203, 54, 0)
+}
